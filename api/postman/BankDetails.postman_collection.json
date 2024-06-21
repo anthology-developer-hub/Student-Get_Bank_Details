@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "b2bea1ea-3420-4266-8416-c7b3eb158ab4",
+		"name": "BankDetails",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25479697",
+		"_collection_link": "https://gold-moon-293474.postman.co/workspace/Riyaz-Workplace~75cc7567-b0d3-445a-8521-2bb89813febc/collection/25479697-b2bea1ea-3420-4266-8416-c7b3eb158ab4?action=share&source=collection_link&creator=25479697"
+	},
+	"item": [
+		{
+			"name": "Banks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/Banks",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Banks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BankAccounts",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/BankAccounts",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"BankAccounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BankAccountsFundSources",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/BankAccountFundSources",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"BankAccountFundSources"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StudentBankAccounts",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/StudentAccountTransactions",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"StudentAccountTransactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StudentAccountTransactions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/StudentAccountTransactions",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"StudentAccountTransactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Batch1098TProcessCitizens",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/Batch1098TProcessCitizens",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Batch1098TProcessCitizens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Batch1098TProcessDetails",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/Batch1098TProcessDetails",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Batch1098TProcessDetails"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
